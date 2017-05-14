@@ -2,13 +2,13 @@
 
 
 Intro---------------
-This project is dedicated to examining different methods of solving the classic
- Pacman Atari game through the OpenAI environment.
+	This project is dedicated to examining different methods of solving the classic 
+Pacman Atari game through the OpenAI environment.
 
 
 
 Problem--------------
-OpenAI provides an environment for simulating a simple Atari video game while
+	OpenAI provides an environment for simulating a simple Atari video game while
 allowing you to provide the policies for the agent, essentially allowing you
 to implement your own strategy for solving the game. For each game, there are two
 variations on different types of input: either using memory RAM as input, or using
@@ -23,7 +23,7 @@ Solution--------------
 Random:
 One way of trying to solve the problem was by randomly controlling the pacman agent. This
 is a somewhat poor approach to an actual solution, but it gives a good baseline for comparing
-our other solutions.
+our other solution.
 
 
 Constraint Satisfaction (AC3 Algorithm):
@@ -53,9 +53,9 @@ Process---------------
 
 
 Results----------------
-
+	
 
 
 
 Conclusion--------------
-	
+	In conclusion, the AC3 algorithm is a powerful way to tackle the pacman problem.
