@@ -1,0 +1,123 @@
+[32m[0514 13:34:58 @A3C-Gym.py:100][0m Environment Name: MsPacman-v0
+[32m[0514 13:34:59 @common.py:128][0m conv0 input: [None, 84, 84, 12]
+[32m[0514 13:34:59 @common.py:136][0m conv0 output: [None, 84, 84, 32]
+[32m[0514 13:34:59 @common.py:128][0m pool0 input: [None, 84, 84, 32]
+[32m[0514 13:34:59 @common.py:136][0m pool0 output: [None, 42, 42, 32]
+[32m[0514 13:34:59 @common.py:128][0m conv1 input: [None, 42, 42, 32]
+[32m[0514 13:34:59 @common.py:136][0m conv1 output: [None, 42, 42, 32]
+[32m[0514 13:34:59 @common.py:128][0m pool1 input: [None, 42, 42, 32]
+[32m[0514 13:34:59 @common.py:136][0m pool1 output: [None, 21, 21, 32]
+[32m[0514 13:34:59 @common.py:128][0m conv2 input: [None, 21, 21, 32]
+[32m[0514 13:34:59 @common.py:136][0m conv2 output: [None, 21, 21, 64]
+[32m[0514 13:34:59 @common.py:128][0m pool2 input: [None, 21, 21, 64]
+[32m[0514 13:34:59 @common.py:136][0m pool2 output: [None, 10, 10, 64]
+[32m[0514 13:34:59 @common.py:128][0m conv3 input: [None, 10, 10, 64]
+[32m[0514 13:34:59 @common.py:136][0m conv3 output: [None, 10, 10, 64]
+[32m[0514 13:34:59 @common.py:128][0m fc0 input: [None, 10, 10, 64]
+[32m[0514 13:34:59 @common.py:136][0m fc0 output: [None, 512]
+[32m[0514 13:34:59 @common.py:128][0m fc-pi input: [None, 512]
+[32m[0514 13:34:59 @common.py:136][0m fc-pi output: [None, 9]
+[32m[0514 13:34:59 @sessinit.py:128][0m [5m[31mWRN[0m Variable fc-v/W:0 in checkpoint not found in the graph!
+[32m[0514 13:34:59 @sessinit.py:128][0m [5m[31mWRN[0m Variable fc-v/b:0 in checkpoint not found in the graph!
+[32m[0514 13:34:59 @sessinit.py:100][0m Restoring checkpoint from ./MsPacman-v0.tfmodel ...
+[32m[0514 13:35:00 @A3C-Gym.py:76][0m Start evaluation: 
+('Score:', 6180.0)
+('Score:', 6720.0)
+('Score:', 7740.0)
+('Score:', 6580.0)
+('Score:', 8090.0)
+('Score:', 5610.0)
+('Score:', 7550.0)
+('Score:', 7380.0)
+('Score:', 4950.0)
+('Score:', 4430.0)
+('Score:', 7350.0)
+('Score:', 5280.0)
+('Score:', 6120.0)
+('Score:', 6390.0)
+('Score:', 7100.0)
+('Score:', 6530.0)
+('Score:', 8300.0)
+('Score:', 7380.0)
+('Score:', 7600.0)
+('Score:', 8490.0)
+('Score:', 6650.0)
+('Score:', 6070.0)
+('Score:', 8790.0)
+('Score:', 7050.0)
+('Score:', 7270.0)
+('Score:', 5620.0)
+('Score:', 5540.0)
+('Score:', 5180.0)
+('Score:', 3790.0)
+('Score:', 7490.0)
+('Score:', 6150.0)
+('Score:', 5400.0)
+('Score:', 1820.0)
+('Score:', 8510.0)
+('Score:', 4040.0)
+('Score:', 7320.0)
+('Score:', 3190.0)
+('Score:', 7400.0)
+('Score:', 6400.0)
+('Score:', 5320.0)
+('Score:', 8020.0)
+('Score:', 6750.0)
+('Score:', 5960.0)
+('Score:', 5780.0)
+('Score:', 6200.0)
+('Score:', 4970.0)
+('Score:', 1610.0)
+('Score:', 6210.0)
+('Score:', 7620.0)
+('Score:', 4220.0)
+('Score:', 5950.0)
+('Score:', 4770.0)
+('Score:', 7510.0)
+('Score:', 4260.0)
+('Score:', 7320.0)
+('Score:', 6870.0)
+('Score:', 6260.0)
+('Score:', 3050.0)
+('Score:', 6080.0)
+('Score:', 6670.0)
+('Score:', 6190.0)
+('Score:', 7790.0)
+('Score:', 5280.0)
+('Score:', 4780.0)
+('Score:', 7380.0)
+('Score:', 4390.0)
+('Score:', 6550.0)
+('Score:', 5190.0)
+('Score:', 4650.0)
+('Score:', 4160.0)
+('Score:', 5590.0)
+('Score:', 7850.0)
+('Score:', 6130.0)
+('Score:', 7400.0)
+('Score:', 4790.0)
+('Score:', 6490.0)
+('Score:', 3580.0)
+('Score:', 6440.0)
+('Score:', 7630.0)
+('Score:', 6900.0)
+('Score:', 1640.0)
+('Score:', 5150.0)
+('Score:', 2120.0)
+('Score:', 4410.0)
+('Score:', 6890.0)
+('Score:', 6940.0)
+('Score:', 5180.0)
+('Score:', 6220.0)
+('Score:', 8330.0)
+('Score:', 5100.0)
+('Score:', 5080.0)
+('Score:', 7400.0)
+('Score:', 6340.0)
+('Score:', 7480.0)
+('Score:', 5280.0)
+('Score:', 8590.0)
+('Score:', 4220.0)
+('Score:', 6610.0)
+('Score:', 3910.0)
+('Score:', 5800.0)
