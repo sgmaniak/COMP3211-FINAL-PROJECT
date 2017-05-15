@@ -2,12 +2,14 @@
 
 
 Intro---------------
+
 	This project is dedicated to examining different methods of solving the classic 
 Pacman Atari game through the OpenAI environment.
 
 
 
 Problem--------------
+
 	OpenAI provides an environment for simulating a simple Atari video game while
 allowing you to provide the policies for the agent, essentially allowing you
 to implement your own strategy for solving the game. For each game, there are two
@@ -47,6 +49,7 @@ less than y).
 	Once this algorithm terminates, we have values of the variables that satisfy our current problem. 
 
 Process---------------
+
 	To run these next two algorithms, there are some dependencies that need to be installed. First, there is the gym library from OpenAI Gym. There is an installation guide	on 'github.com/openai/gym'. This is needed for both the random algorithm and the AC3 algorithm. 
 	For the AC3 algorithm, we had to download some dependencies for the program. The program for the python file, we found on 'https://gist.github.com/fortunto2/14f9c6deffb14b50e13ad082b8514be0'. Before downloading the AC3 file, we used the installation guide found below 'A3C-Gym.py. After installing the requirements, we also had to download the pre-trained model for Ms Pacman, 'MsPacman-v0.tfmodel', on 'https://goo.gl/9yIol2'. We moved both 'MsPacman-v0.tfmodel' and 'A3C-Gym.py' to the directory in tensorpack that should have been downloaded, in  'tensorpack/examples/A3C-Gym'. 
 	We then tested out two different algorithms. The first algorithm is a simple random agent, which performs a random action every timestep. To run this algorithm, we used the command 'python ms_pacman_random.py | tee ms_pacman_random.txt' to output the results for each episode into an accessable text file. 
@@ -57,6 +60,7 @@ Process---------------
 
 
 Results----------------
+
 	The randomly controlled agent had an average reward of 203.67 with a standard deviation of 61.06. The agent running the AC3 algorithm had an average reward of 6027 with a standard deviation of 1569. 
 
 ![Alt text](https://github.com/ochurney/COMP3211-FINAL-PROJECT/blob/master/graph.png)
@@ -64,4 +68,5 @@ Results----------------
 
 
 Conclusion--------------
+
 	In conclusion, the AC3 algorithm is a powerful way to tackle the pacman problem.
