@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# 
 
 import gym
 
@@ -15,8 +14,8 @@ for episode in range(100):
     total_reward = 0;
     for time in range(1000):
         env.render()
-        action = env.action_space.sample()
-        observation, reward, done, info = env.step(action)
+        action = env.action_space.sample() # Picks a random action
+        observation, reward, done, info = env.step(action) 
         total_reward = total_reward + reward
         if done:
             print ("Episode {}:".format(episode))
