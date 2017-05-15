@@ -47,7 +47,11 @@ less than y).
 	Once this algorithm terminates, we have values of the variables that satisfy our current problem. 
 
 Process---------------
-	We tested out two different algorithms.
+	To run these next two algorithms, there are some dependencies that need to be installed. First, there is the gym library from OpenAI Gym. There is an installation guide	on 'github.com/openai/gym'. This is needed for both the random algorithm and the AC3 algorithm. 
+	For the AC3 algorithm, we had to download some dependencies for the program. The program for the python file, we found on 'https://gist.github.com/fortunto2/14f9c6deffb14b50e13ad082b8514be0'. Before downloading the AC3 file, we used the installation guide found below 'A3C-Gym.py. After installing the requirements, we also had to download the pre-trained model for Ms Pacman, 'MsPacman-v0.tfmodel', on 'https://goo.gl/9yIol2'. We moved both 'MsPacman-v0.tfmodel' and 'A3C-Gym.py' to the directory in tensorpack that should have been downloaded, in  'tensorpack/examples/A3C-Gym'. 
+	We then tested out two different algorithms. The first algorithm is a simple random agent, which performs a random action every timestep. To run this algorithm, we used the command 'python ms_pacman_random.py | tee ms_pacman_random.txt' to output the results for each episode into an accessable text file. 
+	For the AC3 algorithm, we used the program 'A3C-Gym.py' using the command 'sudo python A3C-Gym.py --load MsPacman-v0.tfmodel --env MsPacman-v0 --episode 100 --output ms_pacman_tensorpack.txt'. The program should output a few video models of the program running, as well as a text file with each of the scores during each of the 100 episodes. We used a pre-trained model because training the model takes a lot of resources, and there were some pretrained models available. 
+
 
 
 
