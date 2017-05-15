@@ -34,16 +34,18 @@ For this type of problem, we have to deal with a set of variables, a set of doma
 constraints. We then try to find evalutaions of the variables within those domains that satisfy our 
 constraints.
 
+So, how do variable constraints apply to the problem of pacman? Our agent, pacman, has the choice of going
+north, east, south or west. Say we are in the middle of a game, and we are trying to figure out the best direction
+for our next step. We start off by considering all possibilities. However, perhaps there is a wall directly below
+us, so we eliminate south as an option. This would be considered a unary constraint. But say that we are considering
+going east or north. We may have a constraint that say the path we choose has to go the furthest away from
+the ghosts, or the closest to the nearest available points to pick up. Once we check these constraints, it becomes
+more clear which direction is the optimal action to choose.
 One specific way of solving the constraint satisfaction problem is by checking for arc consistency.
 One variable is arc consistent with another if each of its admissible values is consistent with some admissible 
 value of the second variable. Formally, a variable x is arc-consistent with another variable y if, for every 
 value a in the domain of x there exists a value b in the domain of y such that (a, b)  satisfies the binary 
 constraint between x and y.
-
-So, how does arc consistency apply to the problem of pacman? Our agent, pacman, has the choice of going
-north, east, south or west. Say we are in the middle of a game, and we are trying to figure out the best direction
-for our next step. We start off by considering all possibilities. However, perhaps there is a wall directly below
-us, so we eliminate south as an option.
 
 To check for arc consistency, we utilize the AC3 algorithm, developed by Alan Mackworth in 1977. This
 algorithm takes as input a set of variables, a set of domains for each variable, and both a set of unary
