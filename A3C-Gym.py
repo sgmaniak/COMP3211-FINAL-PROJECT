@@ -41,7 +41,7 @@ def get_player(dumpdir=None):
     return pl
 
 
-class Model(ModelDesc):
+class Model(ModelDesc): 
     def _get_inputs(self):
         assert NUM_ACTIONS is not None
         return [InputDesc(tf.float32, (None,) + IMAGE_SHAPE3, 'state'),
@@ -70,7 +70,7 @@ class Model(ModelDesc):
         policy = tf.nn.softmax(policy, name='policy')
 
 
-def run_submission(cfg, output, nr):
+def run_submission(cfg, output, nr): # Starts running episodes
     player = get_player(dumpdir=output)
     predfunc = OfflinePredictor(cfg)
     logger.info("Start evaluation: ")
@@ -81,7 +81,7 @@ def run_submission(cfg, output, nr):
         print("Score:", score)
 
 
-def do_submit(output):
+def do_submit(output): # Submits results to OpenAI Gym
     gym.upload(output, api_key='xxx')
 
 
