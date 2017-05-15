@@ -52,7 +52,13 @@ algorithm takes as input a set of variables, a set of domains for each variable,
 constraints (e.g. x must be a prime number) and a separate set of binary constraints (e.g. x must be 3 
 less than y).
 
-Once this algorithm terminates, we have values of the variables that satisfy our current problem. 
+The AC3 algorithm takes in a kind of directed graph. In our graph, the nodes are variables in the constraint
+satisfaction problem, and the edges between nodes are constraints. We keep a list of arcs that need to be
+checked for consistency between pairs of variables. If any any values are removed from consideration from
+the domain of a variable, then all other edges related to that variable are added to the list, while the arc
+pointing to the current variable is also removed. At each step in the algorithm, at least one variable or
+one edge is removed from consideration. Once this algorithm terminates, we have values of the variables 
+that satisfy our current problem. 
 
 Process---------------
 
