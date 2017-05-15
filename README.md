@@ -54,9 +54,37 @@ Once this algorithm terminates, we have values of the variables that satisfy our
 
 Process---------------
 
-To run these next two algorithms, there are some dependencies that need to be installed. First, there is the gym library from OpenAI Gym. There is an installation guide	on 'github.com/openai/gym'. This is needed for both the random algorithm and the AC3 algorithm. 
+To run these next two algorithms, there are some dependencies that need to be installed. Here are some commands to install everything:
 
-For the AC3 algorithm, we had to download some dependencies for the program. The program for the python file, we found on 'https://gist.github.com/fortunto2/14f9c6deffb14b50e13ad082b8514be0'. Before downloading the AC3 file, we used the installation guide found below 'A3C-Gym.py. After installing the requirements, we also had to download the pre-trained model for Ms Pacman, 'MsPacman-v0.tfmodel', on 'https://goo.gl/9yIol2'. We moved both 'MsPacman-v0.tfmodel' and 'A3C-Gym.py' to the directory in tensorpack that should have been downloaded, in  'tensorpack/examples/A3C-Gym'. 
+git clone https://github.com/openai/gym
+cd gym
+pip install -e .
+
+sudo apt-get install python-pip gcc make cmake
+sudo apt-get install zlib1g-dev
+pip install numpy
+cd /root
+git clone https://github.com/openai/atari-py
+cd atari-py
+python setup.py build install
+
+wget https://bootstrap.pypa.io/ez_setup.py -O - | python
+
+#opencv
+conda install -c menpo opencv
+
+pip install -U git+https://github.com/ppwwyyxx/tensorpack.git
+# or add `--user` to avoid system-wide installation.
+
+conda install tensorflow
+conda install libgcc
+
+cd tensorpack/tree/master/examples/A3C-Gym
+
+
+Download the MsPacman-v0.tfmodel file from 'https://goo.gl/9yIol2'.
+
+We moved both 'MsPacman-v0.tfmodel' found on the Google link and 'A3C-Gym.py' to the directory in tensorpack that should have been downloaded, in  'tensorpack/examples/A3C-Gym'. 
 
 We then tested out two different algorithms. The first algorithm is a simple random agent, which performs a random action every timestep. To run this algorithm, we used the command 'python ms_pacman_random.py | tee ms_pacman_random.txt' to output the results for each episode into an accessable text file. 
 
