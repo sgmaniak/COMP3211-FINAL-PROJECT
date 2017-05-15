@@ -74,7 +74,7 @@ wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 conda install -c menpo opencv
 
 pip install -U git+https://github.com/ppwwyyxx/tensorpack.git
-# or add `--user` to avoid system-wide installation.
+#or add `--user` to avoid system-wide installation.
 
 conda install tensorflow
 conda install libgcc
