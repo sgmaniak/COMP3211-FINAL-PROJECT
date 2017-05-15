@@ -1,0 +1,296 @@
+Discrete(9)
+Box(210, 160, 3)
+Episode 0:
+  completed in 664 steps
+  total reward was 240.0
+Episode 1:
+  completed in 543 steps
+  total reward was 110.0
+Episode 2:
+  completed in 640 steps
+  total reward was 140.0
+Episode 3:
+  completed in 580 steps
+  total reward was 90.0
+Episode 4:
+  completed in 616 steps
+  total reward was 260.0
+Episode 5:
+  completed in 688 steps
+  total reward was 190.0
+Episode 6:
+  completed in 678 steps
+  total reward was 190.0
+Episode 7:
+  completed in 724 steps
+  total reward was 310.0
+Episode 8:
+  completed in 465 steps
+  total reward was 140.0
+Episode 9:
+  completed in 543 steps
+  total reward was 110.0
+Episode 10:
+  completed in 603 steps
+  total reward was 250.0
+Episode 11:
+  completed in 614 steps
+  total reward was 230.0
+Episode 12:
+  completed in 744 steps
+  total reward was 230.0
+Episode 13:
+  completed in 557 steps
+  total reward was 200.0
+Episode 14:
+  completed in 635 steps
+  total reward was 150.0
+Episode 15:
+  completed in 760 steps
+  total reward was 270.0
+Episode 16:
+  completed in 628 steps
+  total reward was 140.0
+Episode 17:
+  completed in 704 steps
+  total reward was 240.0
+Episode 18:
+  completed in 711 steps
+  total reward was 270.0
+Episode 19:
+  completed in 625 steps
+  total reward was 170.0
+Episode 20:
+  completed in 689 steps
+  total reward was 250.0
+Episode 21:
+  completed in 590 steps
+  total reward was 190.0
+Episode 22:
+  completed in 730 steps
+  total reward was 220.0
+Episode 23:
+  completed in 648 steps
+  total reward was 190.0
+Episode 24:
+  completed in 684 steps
+  total reward was 200.0
+Episode 25:
+  completed in 535 steps
+  total reward was 120.0
+Episode 26:
+  completed in 578 steps
+  total reward was 230.0
+Episode 27:
+  completed in 634 steps
+  total reward was 200.0
+Episode 28:
+  completed in 679 steps
+  total reward was 290.0
+Episode 29:
+  completed in 731 steps
+  total reward was 180.0
+Episode 30:
+  completed in 642 steps
+  total reward was 160.0
+Episode 31:
+  completed in 696 steps
+  total reward was 200.0
+Episode 32:
+  completed in 729 steps
+  total reward was 210.0
+Episode 33:
+  completed in 712 steps
+  total reward was 200.0
+Episode 34:
+  completed in 662 steps
+  total reward was 260.0
+Episode 36:
+  completed in 547 steps
+  total reward was 190.0
+Episode 37:
+  completed in 639 steps
+  total reward was 270.0
+Episode 38:
+  completed in 640 steps
+  total reward was 260.0
+Episode 39:
+  completed in 652 steps
+  total reward was 240.0
+Episode 40:
+  completed in 628 steps
+  total reward was 150.0
+Episode 41:
+  completed in 567 steps
+  total reward was 240.0
+Episode 42:
+  completed in 521 steps
+  total reward was 140.0
+Episode 43:
+  completed in 727 steps
+  total reward was 260.0
+Episode 44:
+  completed in 611 steps
+  total reward was 240.0
+Episode 45:
+  completed in 680 steps
+  total reward was 280.0
+Episode 46:
+  completed in 473 steps
+  total reward was 70.0
+Episode 47:
+  completed in 698 steps
+  total reward was 190.0
+Episode 48:
+  completed in 601 steps
+  total reward was 180.0
+Episode 49:
+  completed in 488 steps
+  total reward was 210.0
+Episode 50:
+  completed in 407 steps
+  total reward was 130.0
+Episode 51:
+  completed in 623 steps
+  total reward was 160.0
+Episode 52:
+  completed in 465 steps
+  total reward was 130.0
+Episode 53:
+  completed in 491 steps
+  total reward was 70.0
+Episode 54:
+  completed in 660 steps
+  total reward was 180.0
+Episode 55:
+  completed in 706 steps
+  total reward was 250.0
+Episode 56:
+  completed in 472 steps
+  total reward was 120.0
+Episode 57:
+  completed in 676 steps
+  total reward was 260.0
+Episode 58:
+  completed in 592 steps
+  total reward was 160.0
+Episode 60:
+  completed in 628 steps
+  total reward was 300.0
+Episode 61:
+  completed in 662 steps
+  total reward was 220.0
+Episode 62:
+  completed in 685 steps
+  total reward was 210.0
+Episode 63:
+  completed in 942 steps
+  total reward was 410.0
+Episode 64:
+  completed in 563 steps
+  total reward was 170.0
+Episode 65:
+  completed in 695 steps
+  total reward was 240.0
+Episode 66:
+  completed in 657 steps
+  total reward was 220.0
+Episode 67:
+  completed in 766 steps
+  total reward was 190.0
+Episode 68:
+  completed in 635 steps
+  total reward was 280.0
+Episode 69:
+  completed in 566 steps
+  total reward was 220.0
+Episode 70:
+  completed in 652 steps
+  total reward was 160.0
+Episode 71:
+  completed in 787 steps
+  total reward was 220.0
+Episode 72:
+  completed in 641 steps
+  total reward was 190.0
+Episode 73:
+  completed in 634 steps
+  total reward was 220.0
+Episode 74:
+  completed in 581 steps
+  total reward was 180.0
+Episode 75:
+  completed in 595 steps
+  total reward was 260.0
+Episode 76:
+  completed in 650 steps
+  total reward was 160.0
+Episode 77:
+  completed in 626 steps
+  total reward was 170.0
+Episode 78:
+  completed in 744 steps
+  total reward was 210.0
+Episode 79:
+  completed in 584 steps
+  total reward was 190.0
+Episode 80:
+  completed in 713 steps
+  total reward was 240.0
+Episode 81:
+  completed in 685 steps
+  total reward was 270.0
+Episode 82:
+  completed in 547 steps
+  total reward was 180.0
+Episode 83:
+  completed in 984 steps
+  total reward was 390.0
+Episode 84:
+  completed in 715 steps
+  total reward was 200.0
+Episode 85:
+  completed in 622 steps
+  total reward was 180.0
+Episode 86:
+  completed in 566 steps
+  total reward was 210.0
+Episode 87:
+  completed in 655 steps
+  total reward was 200.0
+Episode 88:
+  completed in 532 steps
+  total reward was 170.0
+Episode 89:
+  completed in 626 steps
+  total reward was 120.0
+Episode 90:
+  completed in 649 steps
+  total reward was 250.0
+Episode 91:
+  completed in 423 steps
+  total reward was 190.0
+Episode 92:
+  completed in 579 steps
+  total reward was 150.0
+Episode 93:
+  completed in 601 steps
+  total reward was 290.0
+Episode 94:
+  completed in 644 steps
+  total reward was 170.0
+Episode 95:
+  completed in 669 steps
+  total reward was 200.0
+Episode 96:
+  completed in 653 steps
+  total reward was 310.0
+Episode 97:
+  completed in 735 steps
+  total reward was 250.0
+Episode 98:
+  completed in 624 steps
+  total reward was 260.0
+Episode 99:
+  completed in 418 steps
+  total reward was 100.0
