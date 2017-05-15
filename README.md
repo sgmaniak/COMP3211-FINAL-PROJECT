@@ -78,4 +78,4 @@ The randomly controlled agent had an average reward of 203.67 with a standard de
 
 Conclusion--------------
 
-In conclusion, the AC3 algorithm is a powerful way to tackle the pacman problem.
+In conclusion, the AC3 algorithm is a powerful way to tackle the pacman problem. It has a relatively high overall reward compared to the random agent. One downside is the large amount of time that it takes to train the model. In our case we used a pre-trained model, but the training for that model can take hours at best. Even with the amount of training time, this model is good because we can pre-train the model using a powerful computer, and then use that model on less-powerful computers.
