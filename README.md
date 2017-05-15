@@ -41,7 +41,7 @@ constraints.
 
 
 Process---------------
-
+	We tested out two different algorithms.
 
 
 
