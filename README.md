@@ -59,7 +59,7 @@ Process---------------
 Results----------------
 	The randomly controlled agent had an average reward of 203.67 with a standard deviation of 61.06. The agent running the AC3 algorithm had an average reward of 6027 with a standard deviation of 1569. 
 
-! [Alt text] (https://github.com/ochurney/COMP3211-FINAL-PROJECT/blob/master/graph.png)
+![Alt text](https://github.com/ochurney/COMP3211-FINAL-PROJECT/blob/master/graph.png)
 
 
 
