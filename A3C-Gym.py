@@ -28,7 +28,7 @@ NUM_ACTIONS = None
 ENV_NAME = None
 
 
-#allows interaction with the player agent through the available actions
+# allows interaction with the player agent through the available actions
 def get_player(dumpdir=None):
     pl = GymEnv(ENV_NAME, dumpdir=dumpdir, auto_restart=False)
     pl = MapPlayerState(pl, lambda img: cv2.resize(img, IMAGE_SIZE[::-1]))
@@ -40,8 +40,8 @@ def get_player(dumpdir=None):
     return pl
 
 
-#creates a model from tensorpack which will predict the best available
-#action using the AC3 algorithm
+# creates a model from tensorpack which will predict the best available
+# action using the AC3 algorithm
 class Model(ModelDesc): 
     def _get_inputs(self):
         assert NUM_ACTIONS is not None
@@ -65,8 +65,8 @@ class Model(ModelDesc):
         policy = FullyConnected('fc-pi', l, out_dim=NUM_ACTIONS, nl=tf.identity)
         return policy
 
-    #this method builds a graph that relates the different
-    #states and available actions of the agent
+    # this method builds a graph that relates the different
+    # states and available actions of the agent
     def _build_graph(self, inputs):
         state, action, futurereward = inputs
         policy = self._get_NN_prediction(state)
@@ -95,19 +95,19 @@ if __name__ == '__main__':
     parser.add_argument('--output', help='output directory', default='gym-submit')
     args = parser.parse_args()
 
-    #get the environment for running the game
+    # get the environment for running the game
     ENV_NAME = args.env
     assert ENV_NAME
     logger.info("Environment Name: {}".format(ENV_NAME))
     p = get_player()
     del p    # set NUM_ACTIONS
 
-    #detect if the machine is running a GPU
+    # detect if the machine is running a GPU
     if args.gpu:
         os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
     
-    #pass model into the PredictConfig which will allow us
-    #to run the simulation with the already trained model
+    # pass model into the PredictConfig which will allow us
+    # to run the simulation with the already trained model
     cfg = PredictConfig(
         model=Model(),
         session_init=SaverRestore(args.load),
